@@ -1,3 +1,91 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-//<Student>
+<Student>
+  <FirstName></FirstName>
+  <MiddleName></MiddleName>
+  <LastName></LastName>
+  <PreferredName></PreferredName>
+  <StudentID></StudentID>
+  <Email></Email>
+  <Phone></Phone>
+  <Status></Status>
+  <GPA></GPA>
+  <Major></Major>
+  <Minor></Minor>
+  <Status></Status>
+  <Advisor></Advisor>
+  <Dateofinitialenrollment></Dateofinitialenrollment>
+  <Graduationdate></Graduationdate>
+</Student>
+
+<Student>
+  <FirstName></FirstName>
+  <MiddleName></MiddleName>
+  <LastName></LastName>
+  <PreferredName></PreferredName>
+  <StudentID></StudentID>
+  <Email></Email>
+  <Phone></Phone>
+  <Status></Status>
+  <GPA></GPA>
+  <Major></Major>
+  <Minor></Minor>
+  <Status></Status>
+  <Advisor></Advisor>
+  <Dateofinitialenrollment></Dateofinitialenrollment>
+  <Graduationdate></Graduationdate>
+</Student>
+
+<Student>
+  <FirstName></FirstName>
+  <MiddleName></MiddleName>
+  <LastName></LastName>
+  <PreferredName></PreferredName>
+  <StudentID></StudentID>
+  <Email></Email>
+  <Phone></Phone>
+  <Status></Status>
+  <GPA></GPA>
+  <Major></Major>
+  <Minor></Minor>
+  <Status></Status>
+  <Advisor></Advisor>
+  <Dateofinitialenrollment></Dateofinitialenrollment>
+  <Graduationdate></Graduationdate>
+</Student>
+
+<Student>
+  <FirstName></FirstName>
+  <MiddleName></MiddleName>
+  <LastName></LastName>
+  <PreferredName></PreferredName>
+  <StudentID></StudentID>
+  <Email></Email>
+  <Phone></Phone>
+  <Status></Status>
+  <GPA></GPA>
+  <Major></Major>
+  <Minor></Minor>
+  <Status></Status>
+  <Advisor></Advisor>
+  <Dateofinitialenrollment></Dateofinitialenrollment>
+  <Graduationdate></Graduationdate>
+</Student>
+
+<Student>
+  <FirstName></FirstName>
+  <MiddleName></MiddleName>
+  <LastName></LastName>
+  <PreferredName></PreferredName>
+  <StudentID></StudentID>
+  <Email></Email>
+  <Phone></Phone>
+  <Status></Status>
+  <GPA></GPA>
+  <Major></Major>
+  <Minor></Minor>
+  <Status></Status>
+  <Advisor></Advisor>
+  <Dateofinitialenrollment></Dateofinitialenrollment>
+  <Graduationdate></Graduationdate>
+</Student>
