@@ -1,17 +1,17 @@
 <!DOCTYPE STUDENTS [
-<!ELEMENT FirstName>
-<!ELEMENT MiddleName>
-<!ELEMENT LastName>
-<!ELEMENT PreferredName>
-<!ELEMENT StudentID>
-<!ELEMENT Email>
-<!ELEMENT Phone>
-<!ELEMENT Status>
-<!ELEMENT GPA>
-<!ELEMENT Major>
-<!ELEMENT Minor>
-<!ELEMENT Status>
-<!ELEMENT Advisor>
-<!ELEMENT Dateofinitialenrollment>
-<!ELEMENT Graduationdate>
+<!ELEMENT FirstName (#PCDATA)>
+<!ELEMENT MiddleName (#PCDATA)>
+<!ELEMENT LastName (#PCDATA)>
+<!ELEMENT PreferredName (#PCDATA)>
+<!ELEMENT StudentID (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT Phone (#PCDATA)>
+<!ELEMENT Status (#PCDATA)>
+<!ELEMENT GPA (#PCDATA)>
+<!ELEMENT Major (#PCDATA)>
+<!ELEMENT Minor (#PCDATA)>
+<!ELEMENT Status (#PCDATA)>
+<!ELEMENT Advisor (#PCDATA)>
+<!ELEMENT Dateofinitialenrollment (#PCDATA)>
+<!ELEMENT Graduationdate (#PCDATA)>
 ]>
