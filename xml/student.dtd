@@ -1,14 +1,17 @@
 <!DOCTYPE STUDENTS [
-
-
-
-
-
-
-
-
-
-
-
-
+<!ELEMENT FirstName>
+<!ELEMENT MiddleName>
+<!ELEMENT LastName>
+<!ELEMENT PreferredName>
+<!ELEMENT StudentID>
+<!ELEMENT Email>
+<!ELEMENT Phone>
+<!ELEMENT Status>
+<!ELEMENT GPA>
+<!ELEMENT Major>
+<!ELEMENT Minor>
+<!ELEMENT Status>
+<!ELEMENT Advisor>
+<!ELEMENT Dateofinitialenrollment>
+<!ELEMENT Graduationdate>
 ]>
