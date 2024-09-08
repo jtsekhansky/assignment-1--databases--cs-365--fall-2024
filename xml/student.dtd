@@ -1,4 +1,6 @@
-<!DOCTYPE STUDENTS [
+<!DOCTYPE Students [
+<!Element Students (Student)+>
+<!ELEMENT Student (FirstName,MiddleName,LastName,PreferredName,StudentID,Email,Phone,StatusYear,GPA,Major,Minor,Status,Advisor,Dateofinitialenrollment,Graduationdate)>
 <!ELEMENT FirstName (#PCDATA)>
 <!ELEMENT MiddleName (#PCDATA)>
 <!ELEMENT LastName (#PCDATA)>
@@ -6,7 +8,7 @@
 <!ELEMENT StudentID (#PCDATA)>
 <!ELEMENT Email (#PCDATA)>
 <!ELEMENT Phone (#PCDATA)>
-<!ELEMENT Status (#PCDATA)>
+<!ELEMENT StatusYear (#PCDATA)>
 <!ELEMENT GPA (#PCDATA)>
 <!ELEMENT Major (#PCDATA)>
 <!ELEMENT Minor (#PCDATA)>

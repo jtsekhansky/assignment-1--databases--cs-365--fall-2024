@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-
+<Students>
 <Student>
   <FirstName>Gordon</FirstName>
   <MiddleName>Matthew</MiddleName>
@@ -8,7 +8,7 @@
   <StudentID>1234567</StudentID>
   <Email>sting@thepolice.com</Email>
   <Phone>212.123.4567</Phone>
-  <Status>first year</Status>
+  <StatusYear>first year</StatusYear>
   <GPA>4.0</GPA>
   <Major>Music</Major>
   <Minor>English</Minor>
@@ -26,7 +26,7 @@
   <StudentID>4567890</StudentID>
   <Email>kim@soundgarden.com</Email>
   <Phone>206.123.4567</Phone>
-  <Status>second year</Status>
+  <StatusYear>second year</StatusYear>
   <GPA>3.0</GPA>
   <Major>Philosophy</Major>
   <Minor>Music</Minor>
@@ -44,7 +44,7 @@
   <StudentID>8302438</StudentID>
   <Email>slash@gnr.com</Email>
   <Phone>213.456.8392</Phone>
-  <Status>fourth year</Status>
+  <StatusYear>fourth year</StatusYear>
   <GPA>2.0</GPA>
   <Major>Music</Major>
   <Minor>Criminal Justice</Minor>
@@ -62,7 +62,7 @@
   <StudentID>2983928</StudentID>
   <Email>emily@warpaint.com</Email>
   <Phone>213.123.7654</Phone>
-  <Status>third year</Status>
+  <StatusYear>third year</StatusYear>
   <GPA>3.8</GPA>
   <Major>Political Science</Major>
   <Minor>Law</Minor>
@@ -80,7 +80,7 @@
   <StudentID>764726</StudentID>
   <Email>mike@aic.com</Email>
   <Phone>213.444.3323</Phone>
-  <Status>second year</Status>
+  <StatusYear>second year</StatusYear>
   <GPA>4.0</GPA>
   <Major>Business Management</Major>
   <Minor>Math</Minor>
@@ -89,3 +89,4 @@
   <Dateofinitialenrollment>08-25-1984</Dateofinitialenrollment>
   <Graduationdate>05-01-1988</Graduationdate>
 </Student>
+</Students>
