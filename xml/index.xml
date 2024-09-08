@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE students SYSTEM "../dtd/student.dtd">
+<?xml-stylesheet type="text/css" href="../xml/style.css"?>
+<!DOCTYPE students SYSTEM "../xml/student.dtd">
 <Students>
 <Student>
   <FirstName>Gordon</FirstName>

@@ -1,0 +1,13 @@
+Students
+{
+  font-size: 20px;
+  font-family: Ariel;
+  display:block;
+}
+Student
+{
+  display:block;
+  font-size: 15px;
+  border: 1px solid silver;
+  margin: 2px;
+}
