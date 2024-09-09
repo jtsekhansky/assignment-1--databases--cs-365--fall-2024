@@ -11,3 +11,61 @@ Student
   border: 1px solid silver;
   margin: 2px;
 }
+FirstName:before
+{
+  content: 'Student Name: ';
+  position: relative;
+  color: blue;
+}
+FirstName
+{
+  position: relative;
+  color: green;
+}
+MiddleName:before
+{
+  content: ' ';
+  position: relative;
+}
+MiddleName
+{
+  position: relative;
+  color: green;
+}
+LastName:before
+{
+  content: ' ';
+  position: relative;
+}
+LastName
+{
+  color: green;
+}
+LastName:after
+{
+  clear: both;
+  display: block;
+}
+PreferredName:before
+{
+  content: 'Preferred Name: ';
+  color: red;
+  position: static;
+}
+PreferredName
+{
+  position: relative;
+  color: green;
+}
+StudentID:before
+{
+  content: 'StudentID: ';
+  position: relative;
+  color: green;
+  display: block;
+}
+StudentID
+{
+  position: relative;
+  color: purple;
+}
