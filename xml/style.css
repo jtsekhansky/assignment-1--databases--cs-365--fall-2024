@@ -2,14 +2,14 @@ Students
 {
   font-size: 20px;
   font-family: Ariel;
-  display:block;
+  display: block;
 }
 Student
 {
-  display:block;
   font-size: 15px;
   border: 1px solid silver;
   margin: 2px;
+  display: block;
 }
 FirstName:before
 {
@@ -62,7 +62,6 @@ StudentID:before
   content: 'StudentID: ';
   position: relative;
   color: green;
-  display: block;
 }
 StudentID
 {
