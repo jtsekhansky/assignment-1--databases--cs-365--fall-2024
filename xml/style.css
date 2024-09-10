@@ -69,3 +69,47 @@ StudentID
   position: relative;
   color: purple;
 }
+Email:before
+{
+  content: 'Email: ';
+  position: relative;
+  color: blue;
+}
+Email
+{
+  position: relative;
+  color: orange;
+}
+Phone:before
+{
+  content: 'phone number: ';
+  position: relative;
+  color:chartreuse;
+}
+Phone
+{
+  position: relative;
+  color:crimson;
+}
+Year:before
+{
+  content: 'year: ';
+  position: relative;
+  color: cornflowerblue;
+}
+Year
+{
+  position: relative;
+  color:azure;
+}
+GPA:before
+{
+  content: 'GPA: ';
+  position: relative;
+  color: aqua;
+}
+GPA
+{
+  position: relative;
+  color:darkmagenta;
+}
