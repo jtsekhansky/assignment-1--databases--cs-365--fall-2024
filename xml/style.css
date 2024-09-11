@@ -49,7 +49,7 @@ LastName:after
 PreferredName:before
 {
   content: 'Preferred Name: ';
-  color: red;
+  color: blue;
   position: static;
 }
 PreferredName
@@ -61,7 +61,7 @@ StudentID:before
 {
   content: 'StudentID: ';
   position: relative;
-  color: green;
+  color: blue;
 }
 StudentID
 {
@@ -83,7 +83,7 @@ Phone:before
 {
   content: 'phone number: ';
   position: relative;
-  color:chartreuse;
+  color:blue;
 }
 Phone
 {
@@ -94,7 +94,7 @@ Year:before
 {
   content: 'year: ';
   position: relative;
-  color: cornflowerblue;
+  color: blue;
 }
 Year
 {
@@ -105,10 +105,76 @@ GPA:before
 {
   content: 'GPA: ';
   position: relative;
-  color: aqua;
+  color: blue;
 }
 GPA
 {
   position: relative;
   color:darkmagenta;
+}
+Major:before
+{
+  content: 'Major: ';
+  position: relative;
+  color: blue;
+}
+Major
+{
+  position: relative;
+  color: aquamarine;
+}
+Minor:before
+{
+  content: 'Minor: ';
+  position: relative;
+  color: blue;
+}
+Minor
+{
+  position: relative;
+  color:brown;
+}
+Status:before
+{
+  content: 'Status: ';
+  position: relative;
+  color: blue;
+}
+Status
+{
+  position: relative;
+  color:gold;
+}
+Advisor:before
+{
+  content: 'Advisor: ';
+  position: relative;
+  color: blue;
+}
+Advisor
+{
+  position: relative;
+  color: grey;
+}
+Dateofinitialenrollment:before
+{
+  content: 'Date of Initial Enrollment: ';
+  position: relative;
+  color: blue;
+}
+Dateofinitialenrollment
+{
+  position: relative;
+  color:burlywood;
+}
+Graduationdate:before
+{
+  content: 'Graduation Date: ';
+  position: relative;
+  color: blue;
+}
+Graduationdate
+{
+  position: relative;
+  color:coral;
 }
