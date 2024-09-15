@@ -3,92 +3,82 @@
 <!DOCTYPE students SYSTEM "../xml/student.dtd">
 <Students>
   <Student>
-    <FirstName>Gordon</FirstName>
+    <FirstName PreferredName = "Sting">Gordon</FirstName>
     <MiddleName>Matthew</MiddleName>
     <LastName>Sumner</LastName>
-    <PreferredName>Sting</PreferredName>
     <StudentID>1234567</StudentID>
     <Email>sting@thepolice.com</Email>
     <Phone>212.123.4567</Phone>
-    <StatusYear>first year</StatusYear>
     <GPA>4.0</GPA>
     <Major>Music</Major>
     <Minor>English</Minor>
     <Status>full-time</Status>
     <Advisor>Andy Summers</Advisor>
-    <Dateofinitialenrollment>08-25-1969</Dateofinitialenrollment>
+    <Dateofinitialenrollment StatusYear = "first year">08-25-1969</Dateofinitialenrollment>
     <Graduationdate>05-01-1973</Graduationdate>
   </Student>
 
   <Student>
-    <FirstName>Kim</FirstName>
+    <FirstName PreferredName = "">Kim</FirstName>
     <MiddleName></MiddleName>
     <LastName>Thayil</LastName>
-    <PreferredName></PreferredName>
     <StudentID>4567890</StudentID>
     <Email>kim@soundgarden.com</Email>
     <Phone>206.123.4567</Phone>
-    <StatusYear>second year</StatusYear>
     <GPA>3.0</GPA>
     <Major>Philosophy</Major>
     <Minor>Music</Minor>
     <Status>full-time</Status>
     <Advisor>Chris Cornell</Advisor>
-    <Dateofinitialenrollment>08-25-1978</Dateofinitialenrollment>
+    <Dateofinitialenrollment StatusYear = "second year">08-25-1978</Dateofinitialenrollment>
     <Graduationdate>05-01-1982</Graduationdate>
   </Student>
 
   <Student>
-    <FirstName>Saul</FirstName>
+    <FirstName PreferredName = "Slash">Saul</FirstName>
     <MiddleName></MiddleName>
     <LastName>Hudson</LastName>
-    <PreferredName>Slash</PreferredName>
     <StudentID>8302438</StudentID>
     <Email>slash@gnr.com</Email>
     <Phone>213.456.8392</Phone>
-    <StatusYear>fourth year</StatusYear>
     <GPA>2.0</GPA>
     <Major>Music</Major>
     <Minor>Criminal Justice</Minor>
     <Status>part-time</Status>
     <Advisor>Axl Rose</Advisor>
-    <Dateofinitialenrollment>08-25-1983</Dateofinitialenrollment>
+    <Dateofinitialenrollment StatusYear = "fourth year">08-25-1983</Dateofinitialenrollment>
     <Graduationdate>05-01-1987</Graduationdate>
   </Student>
 
   <Student>
-    <FirstName>Emily</FirstName>
+    <FirstName PreferredName = "">Emily</FirstName>
     <MiddleName></MiddleName>
     <LastName>Kokal</LastName>
-    <PreferredName></PreferredName>
     <StudentID>2983928</StudentID>
     <Email>emily@warpaint.com</Email>
     <Phone>213.123.7654</Phone>
-    <StatusYear>third year</StatusYear>
     <GPA>3.8</GPA>
     <Major>Political Science</Major>
     <Minor>Law</Minor>
     <Status>full-time</Status>
     <Advisor>Jenny Lee Lindburg</Advisor>
-    <Dateofinitialenrollment>08-25-1998</Dateofinitialenrollment>
+    <Dateofinitialenrollment StatusYear = "third year">08-25-1998</Dateofinitialenrollment>
     <Graduationdate>05-01-2002</Graduationdate>
   </Student>
 
   <Student>
-    <FirstName>Mike</FirstName>
+    <FirstName PreferredName = "">Mike</FirstName>
     <MiddleName></MiddleName>
     <LastName>Inez</LastName>
-    <PreferredName></PreferredName>
     <StudentID>764726</StudentID>
     <Email>mike@aic.com</Email>
     <Phone>213.444.3323</Phone>
-    <StatusYear>second year</StatusYear>
     <GPA>4.0</GPA>
     <Major>Business Management</Major>
     <Minor>Math</Minor>
     <Status>full-time</Status>
     <Advisor>Jerry Cantrell</Advisor>
-    <Dateofinitialenrollment>08-25-1984</Dateofinitialenrollment>
+    <Dateofinitialenrollment StatusYear = "second year">08-25-1984</Dateofinitialenrollment>
     <Graduationdate>05-01-1988</Graduationdate>
   </Student>
 </Students>
