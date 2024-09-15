@@ -1,14 +1,26 @@
+<!-- ===================================================================
+  The root element: Students
+
+  The Students container (root) element must contain one or more
+  Student elements
+  ================================================================== -->
+
 <!DOCTYPE Students [
 <!Element Students (Student)+>
-<!ELEMENT Student (FirstName,MiddleName,LastName,PreferredName,StudentID,Email,Phone,StatusYear,GPA,Major,Minor,Status,Advisor,Dateofinitialenrollment,Graduationdate)>
+
+<!-- ===================================================================
+  The Student container element must contain FirstName,MiddleName,LastName,
+  StudentID,Email,Phone,GPA,Major,Minor,Status,Advisor,Dateofinitialenrollment,
+  Graduationdate.
+  ================================================================== -->
+
+<!ELEMENT Student (FirstName,MiddleName,LastName,StudentID,Email,Phone,GPA,Major,Minor,Status,Advisor,Dateofinitialenrollment,Graduationdate)>
 <!ELEMENT FirstName (#PCDATA)>
 <!ELEMENT MiddleName (#PCDATA)>
 <!ELEMENT LastName (#PCDATA)>
-<!ELEMENT PreferredName (#PCDATA)>
 <!ELEMENT StudentID (#PCDATA)>
 <!ELEMENT Email (#PCDATA)>
 <!ELEMENT Phone (#PCDATA)>
-<!ELEMENT StatusYear (#PCDATA)>
 <!ELEMENT GPA (#PCDATA)>
 <!ELEMENT Major (#PCDATA)>
 <!ELEMENT Minor (#PCDATA)>
@@ -16,4 +28,19 @@
 <!ELEMENT Advisor (#PCDATA)>
 <!ELEMENT Dateofinitialenrollment (#PCDATA)>
 <!ELEMENT Graduationdate (#PCDATA)>
+
+<!-- ===================================================================
+  A person may have a preffered name in addition to the first name
+  ================================================================== -->
+
+<!ATTLIST FirstName
+  PreferredName CDATA #REQUIRED>
+
+<!-- ===================================================================
+  A status is loosely based on the date of initial enrollment
+  ================================================================== -->
+
+<!ATTLIST Dateofinitialenrollment
+  StatusYear CDATA #REQUIRED>
+
 ]>
