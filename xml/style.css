@@ -1,12 +1,12 @@
 Students
 {
-  font-size: 20px;
+  font-size: 30px;
   font-family: Ariel;
   display: block;
 }
 Student
 {
-  font-size: 15px;
+  font-size: 20px;
   border: 1px solid silver;
   margin: 2px;
   display: block;
@@ -21,6 +21,11 @@ FirstName
 {
   position: relative;
   color: green;
+}
+FirstName:after
+{
+  content: ' ' attr(PreferredName) ' ';
+  color: darkmagenta;
 }
 MiddleName:before
 {
@@ -43,19 +48,8 @@ LastName
 }
 LastName:after
 {
-  clear: both;
-  display: block;
-}
-PreferredName:before
-{
-  content: 'Preferred Name: ';
-  color: blue;
-  position: static;
-}
-PreferredName
-{
-  position: relative;
-  color: green;
+  content: ' ';
+  display: flex;
 }
 StudentID:before
 {
@@ -68,6 +62,11 @@ StudentID
   position: relative;
   color: purple;
 }
+StudentID:after
+{
+  content: ' ';
+  display: flex;
+}
 Email:before
 {
   content: 'Email: ';
@@ -78,6 +77,11 @@ Email
 {
   position: relative;
   color: orange;
+}
+Email:after
+{
+  content: ' ';
+  display: flex;
 }
 Phone:before
 {
@@ -90,16 +94,10 @@ Phone
   position: relative;
   color:crimson;
 }
-Year:before
+Phone:after
 {
-  content: 'year: ';
-  position: relative;
-  color: blue;
-}
-Year
-{
-  position: relative;
-  color:azure;
+  content: ' ';
+  display: flex;
 }
 GPA:before
 {
@@ -112,6 +110,11 @@ GPA
   position: relative;
   color:darkmagenta;
 }
+GPA:after
+{
+  content: ' ';
+  display: flex;
+}
 Major:before
 {
   content: 'Major: ';
@@ -122,6 +125,11 @@ Major
 {
   position: relative;
   color: aquamarine;
+}
+Major:after
+{
+  content: ' ';
+  display: flex;
 }
 Minor:before
 {
@@ -134,6 +142,11 @@ Minor
   position: relative;
   color:brown;
 }
+Minor:after
+{
+  content: ' ';
+  display: flex;
+}
 Status:before
 {
   content: 'Status: ';
@@ -144,6 +157,11 @@ Status
 {
   position: relative;
   color:gold;
+}
+Status:after
+{
+  content: ' ';
+  display: flex;
 }
 Advisor:before
 {
@@ -156,6 +174,11 @@ Advisor
   position: relative;
   color: grey;
 }
+Advisor:after
+{
+  content: ' ';
+  display: flex;
+}
 Dateofinitialenrollment:before
 {
   content: 'Date of Initial Enrollment: ';
@@ -166,6 +189,12 @@ Dateofinitialenrollment
 {
   position: relative;
   color:burlywood;
+}
+Dateofinitialenrollment:after
+{
+  content: ' Status Year: ' attr(StatusYear) ' ';
+  color: darkmagenta;
+  display: flex;
 }
 Graduationdate:before
 {
