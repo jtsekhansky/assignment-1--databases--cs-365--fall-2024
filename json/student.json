@@ -1,107 +1,119 @@
-[
-  {
-    "FirstName": {
-      "@PreferredName": "Sting",
-      "#ElementValue": "Gordon"
+{
+  "Students": [
+    {
+      "1": {
+        "FirstName": {
+          "@PreferredName": "Sting",
+          "#ElementValue": "Gordon"
+        },
+        "MiddleName": "Matthew",
+        "LastName": "Sumner",
+        "StudentID": "1234567",
+        "Email": "sting@thepolice.com",
+        "Phone": "212.123.4567",
+        "GPA": "4.0",
+        "Major": "Music",
+        "Minor": "English",
+        "Status": "full-time",
+        "Advisor": "Andy Summers",
+        "Dateofinitialenrollment": {
+          "@StatusYear": "first year",
+          "#ElementValue": "08-25-1969"
+        },
+        "Graduationdate": "05-01-1973"
+      }
     },
-    "MiddleName": "Matthew",
-    "LastName": "Sumner",
-    "StudentID": "1234567",
-    "Email": "sting@thepolice.com",
-    "Phone": "212.123.4567",
-    "GPA": "4.0",
-    "Major": "Music",
-    "Minor": "English",
-    "Status": "full-time",
-    "Advisor": "Andy Summers",
-    "Dateofinitialenrollment": {
-      "@StatusYear": "first year",
-      "#ElementValue": "08-25-1969"
+    {
+      "2": {
+        "FirstName": {
+          "@PreferredName": "",
+          "#ElementValue": "Kim"
+        },
+        "MiddleName": "",
+        "LastName": "Thayil",
+        "StudentID": "4567890",
+        "Email": "kim@soundgarden.com",
+        "Phone": "206.123.4567",
+        "GPA": "3.0",
+        "Major": "Philosophy",
+        "Minor": "Music",
+        "Status": "full-time",
+        "Advisor": "Chris Cornell",
+        "Dateofinitialenrollment": {
+          "@StatusYear": "second year",
+          "#ElementValue": "08-25-1978"
+        },
+        "Graduationdate": "05-01-1982"
+      }
     },
-    "Graduationdate": "05-01-1973"
-  },
-  {
-    "FirstName": {
-      "@PreferredName": "",
-      "#ElementValue": "Kim"
+    {
+      "3": {
+        "FirstName": {
+          "@PreferredName": "Slash",
+          "#ElementValue": "Saul"
+        },
+        "MiddleName": "",
+        "LastName": "Hudson",
+        "StudentID": "8302438",
+        "Email": "slash@gnr.com",
+        "Phone": "213.456.8392",
+        "GPA": "2.0",
+        "Major": "Music",
+        "Minor": "Criminal Justice",
+        "Status": "part-time",
+        "Advisor": "Axl Rose",
+        "Dateofinitialenrollment": {
+          "@StatusYear": "fourth year",
+          "#ElementValue": "08-25-1983"
+        },
+        "Graduationdate": "05-01-1987"
+      }
     },
-    "MiddleName": "",
-    "LastName": "Thayil",
-    "StudentID": "4567890",
-    "Email": "kim@soundgarden.com",
-    "Phone": "206.123.4567",
-    "GPA": "3.0",
-    "Major": "Philosophy",
-    "Minor": "Music",
-    "Status": "full-time",
-    "Advisor": "Chris Cornell",
-    "Dateofinitialenrollment": {
-      "@StatusYear": "second year",
-      "#ElementValue": "08-25-1978"
+    {
+      "4": {
+        "FirstName": {
+          "@PreferredName": "",
+          "#ElementValue": "Emily"
+        },
+        "MiddleName": "",
+        "LastName": "Kokal",
+        "StudentID": "2983928",
+        "Email": "emily@warpaint.com",
+        "Phone": "213.123.7654",
+        "GPA": "3.8",
+        "Major": "Political Science",
+        "Minor": "Law",
+        "Status": "full-time",
+        "Advisor": "Jenny Lee Lindburg",
+        "Dateofinitialenrollment": {
+          "@StatusYear": "third year",
+          "#ElementValue": "08-25-1998"
+        },
+        "Graduationdate": "05-01-2002"
+      }
     },
-    "Graduationdate": "05-01-1982"
-  },
-  {
-    "FirstName": {
-      "@PreferredName": "Slash",
-      "#ElementValue": "Saul"
-    },
-    "MiddleName": "",
-    "LastName": "Hudson",
-    "StudentID": "8302438",
-    "Email": "slash@gnr.com",
-    "Phone": "213.456.8392",
-    "GPA": "2.0",
-    "Major": "Music",
-    "Minor": "Criminal Justice",
-    "Status": "part-time",
-    "Advisor": "Axl Rose",
-    "Dateofinitialenrollment": {
-      "@StatusYear": "fourth year",
-      "#ElementValue": "08-25-1983"
-    },
-    "Graduationdate": "05-01-1987"
-  },
-  {
-    "FirstName": {
-      "@PreferredName": "",
-      "#ElementValue": "Emily"
-    },
-    "MiddleName": "",
-    "LastName": "Kokal",
-    "StudentID": "2983928",
-    "Email": "emily@warpaint.com",
-    "Phone": "213.123.7654",
-    "GPA": "3.8",
-    "Major": "Political Science",
-    "Minor": "Law",
-    "Status": "full-time",
-    "Advisor": "Jenny Lee Lindburg",
-    "Dateofinitialenrollment": {
-      "@StatusYear": "third year",
-      "#ElementValue": "08-25-1998"
-    },
-    "Graduationdate": "05-01-2002"
-  },
-  {
-    "FirstName": {
-      "@PreferredName": "",
-      "#ElementValue": "Mike"
-    },
-    "MiddleName": "",
-    "LastName": "Inez",
-    "StudentID": "764726",
-    "Email": "mike@aic.com",
-    "Phone": "213.444.3323",
-    "GPA": "4.0",
-    "Major": "Business Management",
-    "Minor": "Math",
-    "Status": "full-time",
-    "Advisor": "Jerry Cantrell",
-    "Dateofinitialenrollment": {
-      "@StatusYear": "second year",
-      "#ElementValue": "08-25-1984"
-    },
-    "Graduationdate": "05-01-1988"
-  }
-]
+    {
+      "5": {
+        "FirstName": {
+          "@PreferredName": "",
+          "#ElementValue": "Mike"
+        },
+        "MiddleName": "",
+        "LastName": "Inez",
+        "StudentID": "764726",
+        "Email": "mike@aic.com",
+        "Phone": "213.444.3323",
+        "GPA": "4.0",
+        "Major": "Business Management",
+        "Minor": "Math",
+        "Status": "full-time",
+        "Advisor": "Jerry Cantrell",
+        "Dateofinitialenrollment": {
+          "@StatusYear": "second year",
+          "#ElementValue": "08-25-1984"
+        },
+        "Graduationdate": "05-01-1988"
+      }
+    }
+  ]
+}
