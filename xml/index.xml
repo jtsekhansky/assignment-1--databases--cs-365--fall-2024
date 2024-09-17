@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/css" href="../xml/style.css"?>
 <!DOCTYPE students SYSTEM "../xml/student.dtd">
 <Students>
-  <Student>
+  <Student num = "1">
     <FirstName PreferredName = "Sting">Gordon</FirstName>
     <MiddleName>Matthew</MiddleName>
     <LastName>Sumner</LastName>
@@ -18,7 +18,7 @@
     <Graduationdate>05-01-1973</Graduationdate>
   </Student>
 
-  <Student>
+  <Student num = "2">
     <FirstName PreferredName = "">Kim</FirstName>
     <MiddleName></MiddleName>
     <LastName>Thayil</LastName>
@@ -34,7 +34,7 @@
     <Graduationdate>05-01-1982</Graduationdate>
   </Student>
 
-  <Student>
+  <Student num = "3">
     <FirstName PreferredName = "Slash">Saul</FirstName>
     <MiddleName></MiddleName>
     <LastName>Hudson</LastName>
@@ -50,7 +50,7 @@
     <Graduationdate>05-01-1987</Graduationdate>
   </Student>
 
-  <Student>
+  <Student num = "4">
     <FirstName PreferredName = "">Emily</FirstName>
     <MiddleName></MiddleName>
     <LastName>Kokal</LastName>
@@ -66,7 +66,7 @@
     <Graduationdate>05-01-2002</Graduationdate>
   </Student>
 
-  <Student>
+  <Student num = "5">
     <FirstName PreferredName = "">Mike</FirstName>
     <MiddleName></MiddleName>
     <LastName>Inez</LastName>
