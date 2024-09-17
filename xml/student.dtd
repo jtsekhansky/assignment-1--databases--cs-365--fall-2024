@@ -15,22 +15,32 @@
   ================================================================== -->
 
 <!ELEMENT Student (FirstName,MiddleName,LastName,StudentID,Email,Phone,GPA,Major,Minor,Status,Advisor,Dateofinitialenrollment,Graduationdate)>
-<!ELEMENT FirstName (#PCDATA)>
-<!ELEMENT MiddleName (#PCDATA)>
-<!ELEMENT LastName (#PCDATA)>
-<!ELEMENT StudentID (#PCDATA)>
-<!ELEMENT Email (#PCDATA)>
-<!ELEMENT Phone (#PCDATA)>
-<!ELEMENT GPA (#PCDATA)>
-<!ELEMENT Major (#PCDATA)>
-<!ELEMENT Minor (#PCDATA)>
-<!ELEMENT Status (#PCDATA)>
-<!ELEMENT Advisor (#PCDATA)>
-<!ELEMENT Dateofinitialenrollment (#PCDATA)>
-<!ELEMENT Graduationdate (#PCDATA)>
+<!ELEMENT FirstName (#PCDATA)> <!-- FirstName element contains parsed data -->
+<!ELEMENT MiddleName (#PCDATA)> <!-- MiddleName element contains parsed data -->
+<!ELEMENT LastName (#PCDATA)> <!-- LastName element contains parsed data -->
+<!ELEMENT StudentID (#PCDATA)> <!-- StudentID element contains parsed data -->
+<!ELEMENT Email (#PCDATA)> <!-- Email element contains parsed data -->
+<!ELEMENT Phone (#PCDATA)> <!-- Phone element contains parsed data -->
+<!ELEMENT GPA (#PCDATA)> <!-- GPA element contains parsed data -->
+<!ELEMENT Major (#PCDATA)> <!-- Major element contains parsed data -->
+<!ELEMENT Minor (#PCDATA)> <!-- Minor element contains parsed data -->
+<!ELEMENT Status (#PCDATA)> <!-- Status element contains parsed data -->
+<!ELEMENT Advisor (#PCDATA)> <!-- Advisor element contains parsed data -->
+<!ELEMENT Dateofinitialenrollment (#PCDATA)> <!-- Dateofinitialenrollment element contains parsed data -->
+<!ELEMENT Graduationdate (#PCDATA)> <!-- Graduationdate element contains parsed data -->
+
+
+<!-- ===================================================================
+  A student record should have a number attribute
+  ================================================================== -->
+
+<!ATTLIST Student
+  num CDATA #REQUIRED>
 
 <!-- ===================================================================
   A person may have a preffered name in addition to the first name
+  Usually preferred name is used instead of first name, or along with it
+  Preferred name is set up as attribute of FirstName element
   ================================================================== -->
 
 <!ATTLIST FirstName
@@ -38,6 +48,7 @@
 
 <!-- ===================================================================
   A status is loosely based on the date of initial enrollment
+  set up as attribute of Dateofinitialenrollment element
   ================================================================== -->
 
 <!ATTLIST Dateofinitialenrollment
