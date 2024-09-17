@@ -1,8 +1,34 @@
+:root
+{
+  font-size: 30px;
+  font-family: Ariel;
+  display: block;
+}
+:root:before
+{
+  content: 'Student List';
+  color: burlywood;
+  font-size: 30px;
+  font-family: Ariel;
+  display: block;
+}
+
 Students
 {
   font-size: 30px;
   font-family: Ariel;
   display: block;
+}
+Students:after
+{
+  content: ' ';
+  display: flex;
+}
+Student:before
+{
+  content: 'Record number: ' attr(num) ' ';
+  color: orange;
+  display: flex;
 }
 Student
 {
@@ -193,7 +219,7 @@ Dateofinitialenrollment
 Dateofinitialenrollment:after
 {
   content: ' Status Year: ' attr(StatusYear) ' ';
-  color: darkmagenta;
+  color: blue;
   display: flex;
 }
 Graduationdate:before
